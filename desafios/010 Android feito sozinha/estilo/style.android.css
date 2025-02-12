@@ -1,0 +1,175 @@
+@charset "UTF-8";
+
+body {
+   background-color: #C5EBD6;
+   font-family: Arial, Helvetica, sans-serif;
+   padding: 0px;
+   margin: 0px;
+}
+
+@font-face {
+    font-family: "idroid";
+    src: url(fontes/idroid.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: bebas;
+    src: url(fontes/BebasNeue-Regular.ttf) format('truetype');
+}
+
+header {
+    background-image: linear-gradient(#3DDA84, #1A5B38);
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+    color: white;
+    
+}
+        header > h1 {
+            font-family: bebas, Helvetica, sans-serif;
+            font-size: 3em;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);  
+        }
+        header h1:hover {
+            text-decoration: underline;
+        }
+        header > p {
+            font-weight: normal;
+            font-size: 20px;
+        }
+        nav {
+            background-color: #1A5B38;
+            padding: 8px;
+            margin-right: 0px;
+            text-align: left;
+        }       
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 14px;
+        }
+        nav > a:hover {
+            background-color: #278f56;
+            padding: 5px;
+            margin: 5px;
+            border-radius: 5px;
+            font-weight: bold;
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.308);
+        }
+
+main {
+    background-color: white;
+    padding: 10px;
+    margin: 0px 115px 0px 115px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.308);
+}
+        article {
+            padding: 10px;
+            margin: 0px;
+            text-align: justify;  
+        }
+        article > p {
+            text-indent: 2em;
+        }
+        article > h1 {
+            font-family: idroid, Helvetica, sans-serif;
+            font-size: 2em;
+            color: #266443;
+            letter-spacing: 1px;
+        }
+        article > h2 {
+            font-family: idroid, Helvetica, sans-serif;
+            background-image: linear-gradient(to right, #C6ECD6, white);
+            color: #266443;
+            letter-spacing: 1px;
+        }
+        article > p > span {
+            color: #266443;
+            font-weight: bold;
+        }
+        article > p > a {
+            text-decoration: none;
+            color: #266443;
+            font-weight: bold;
+        }
+        article > p > a:hover {
+            text-decoration: underline;
+        }
+        picture {
+            display: flex;
+           justify-content: center; 
+           align-items: center;
+        }
+        
+div {
+    text-align: center;
+    background-color:#266443;
+    padding: 10px;
+    margin: 0px 115px 0px 115px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.308);
+}
+
+aside {
+    background-color: white;
+    padding: 10px;
+    margin: 0px 115px 20px 115px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.308);
+    border-radius: 0px 0px 10px 10px;
+}
+    aside > div {
+        background-color: #C5EBD6;
+        text-align: left;
+        margin: 0px;
+        padding: 0px 0px 10px 0px;
+        border-radius: 10px 10px 10px 10px;
+    }
+    aside > div > h2 {
+        background-color: #2FA866;
+        color: white;
+        margin: 0px;
+        padding: 10px;
+        border-radius: 10px 10px 0px 0px;
+    }
+    aside> div > p {
+        text-align: justify;
+        margin: 10px;
+        text-indent: 2em;
+    }
+    aside > div > p > span {
+        color: #266443;
+        font-weight: bold;
+    }
+    aside > p {
+        text-align: justify;
+        margin: 10px;
+        padding: 10px;
+        text-indent: 2em;
+    }
+    aside > div > p > a {
+        text-decoration: none;
+        color: #266443;
+        font-weight: bold;
+    }
+    aside > div > p > a:hover {
+        text-decoration: underline;
+    }
+    aside > p > span {
+        color: #266443;
+        font-weight: bold;
+    }
+
+footer {
+    background-color: #1A5B38;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 3px;
+}
+    footer > p {
+        margin: 0px;
+    }
+    .rodape {
+        font-weight: bold;
+    }

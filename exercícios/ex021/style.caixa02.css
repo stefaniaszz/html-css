@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to bottom, white, dimgray);
+    padding: 0px 0px 0px 0px;
+    margin: 0px;
+}
+
+
+header {
+    background-color: lightgray;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+}
+        .titulo {
+            text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.445);
+        }
+        .titulo:hover {
+            text-decoration: underline;
+        }
+
+        nav {
+            padding: 3px;
+            margin: 0px;
+            text-align: left;
+        }
+        nav > a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            margin-right: 4px;
+        }
+        nav a:hover {
+            background-color: white;
+            padding: 5px;
+            margin: 5px;
+            border-radius: 5px;
+            font-weight: bold;
+            box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.445);
+        }
+        a:hover {
+            background-color: white;
+            box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.445);
+        }
+
+        .assuntos > a {
+            color: black;
+            padding: 5px;
+            margin: 5px;
+            border-radius: 5px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+
+main {
+    background-color: white;
+    padding: 10px;
+    margin: 0px 100px 0px 100px;
+}
+        article {
+            background-color: lightgray;
+            padding: 5px;
+            margin: 0px;
+            box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.445);
+            border-radius: 15px;
+        }
+        article > aside {
+            background-color: lightgray;
+        }
+
+        .autor {
+            color: black;
+        }
+
+
+footer {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 3px;
+}
+footer > p {
+    margin: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
