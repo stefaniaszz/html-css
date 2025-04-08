@@ -4,8 +4,9 @@ body {
 }
 
 table {
-    width: 500px; 
+    width: 450px; 
     border-collapse: collapse;
+    position: relative; /*manter cabeçalho fixo ao rolar tela*/
 }
 
 td, th {
@@ -21,12 +22,18 @@ caption {
 }
 
 thead, tfoot {
-    background-color: gray;
+    background-color: rgb(70, 67, 67);
     color: white;
 }
 
-.posicao {
-    text-align: center;
+thead > tr >th { /*manter cabeçalho fixo ao rolar tela*/
+    position: sticky;
+    top: -1px;
+    background-color: rgb(70, 67, 67);
+}
+
+tbody > tr:nth-child(2n) { /* (2n) é de duas em duas tarja cinza - se quiser colocar as linhas pares (odd) e as linhas ímpares (even)*/
+    background-color: lightgray;
 }
 
 td.num {
