@@ -24,5 +24,5 @@ tr:nth-child(even) {
 }
 
 div#container {
-    overflow-x: auto; /*overflow-x para a rolagem lateral(eixo-x) da tela e cria uma rolagem lateral apenas na tabela que está dentrio da "div id="container"*/
+    overflow-x:auto; /*overflow-x para a rolagem lateral(eixo-x) da tela e cria uma rolagem lateral apenas na tabela que está dentrio da "div id="container"*/
 }
