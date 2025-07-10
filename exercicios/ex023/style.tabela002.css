@@ -27,7 +27,7 @@ thead, tfoot {
     color: white;
 }
 
-thead > tr >th { /*manter cabeçalho fixo ao rolar tela*/
+thead > tr > th { /*manter cabeçalho fixo ao rolar tela*/
     position: sticky;
     top: -1px;
     background-color: rgb(70, 67, 67);

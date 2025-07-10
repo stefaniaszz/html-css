@@ -14,6 +14,8 @@
             height: 400px;
             border: 2px solid black;
         }
+
+
     </style>
 </head>
 <body>
@@ -30,8 +32,11 @@
     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum assumenda distinctio ducimus quis blanditiis quisquam, voluptate illo, unde provident exercitationem dolor nisi doloribus praesentium. Tenetur quisquam necessitatibus autem distinctio incidunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat debitis repellat quo quam perspiciatis ea numquam, voluptate eum quibusdam ratione laudantium maiores esse eos architecto non, id earum vitae repellendus.</p>
 
     <!--adiciona o name para conseguir colocar a página dentro do iframe sem mudar de página no navegador-->
-    <iframe id="tela" name="frame" src="paginas-extras/pag001.html">
+    <!-- 'srcdoc' = usado para deixar uma tela padrão dentro do iframe ao abrir a página-->
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opções acima</h1> <p>Ajude o Narutinho a escolher uma das páginas acima! <b>Dattebayo!!</b></p><img src='imagens/naruto.png' width='170'>">
         <p>Infelizmente seu navegador não é compatível com isso</p>
     </iframe>
+
+    <p><a href="iframe003.html">Voltar para o início</a><p>
 </body>
 </html>
