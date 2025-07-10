@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iframes</title>
+</head>
+<body>
+    <h1>Meu site principal</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, cumque! Maiores minima repudiandae dicta laudantium autem deleniti obcaecati unde quam officia nam soluta corrupti eius, temporibus dolores eum corporis minus.</p>
+    
+    <!-- -sandbox="sandbox"- bloqueia qualquer acesso que outro site tentar entrar, ou seja, ao colocar -nome- não vai aceitar-->
+    <!--'referrerpolicy' = política de referência,  não deixa o conteúdo dentro do iframe coletar informaçãoes do usuário-->
+    <!-- -sandbox="allow-same-origin"- permite o conteúdo de mesma origem, ou seja, dessa mesma página --->
+    <!-- pode adicionar mais configurações dentro do 'sandbox' separando por espaços-->
+    <!-- 'allow-forms' seria 'permitir formulários'-->
+    <!-- 'allow-scripts' seria trechos de código dentro do iframe-->
+    <iframe src="paginas-extras/pag004.html" sandbox="allow-same-origin allow-forms allow-scripts" referrerpolicy="no-referrer">Seu navegador não é compatível com isso!</iframe>
+    <br>
+    <a href="iframa004.html">Tentar novamente</a>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum accusamus necessitatibus est natus maxime, commodi aliquam quas odit quidem quam sequi consectetur. A minima maxime soluta natus non magnam rerum.</p>
+</body>
+</html>
